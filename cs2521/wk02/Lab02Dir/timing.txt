@@ -1,0 +1,18 @@
+March 6th Yinyu Wu and Kevin Phu
+
+Input	Initial	Has	Number	AvgTime	AvgTime
+Size	Order	Dups	of runs	forusel	forsort
+5000	random	no	5	0.0854  0.0138
+5000	sorted	no	5	0.0830	0.0104
+5000	reverse	no	5	0.0086	0.0098
+5000	random	yes	5	0.0824	0.0108
+5000	sorted	yes	5	0.0844	0.0148
+5000	reverse	yes	5	0.0840	0.0122
+10000	random	no	5	0.3340	0.0160
+10000	sorted	no	5	0.2790	0.0120
+10000	reverse	no	5	0.0130	0.0170
+10000	random	yes	5	0.3504	0.0170
+10000	sorted	yes	5	0.3302	0.0220
+10000	reverse	yes	5	0.3340	0.0180
+
+Out team observed that while we test time for the same size using usel algorithm, time for reverse number is much quicker than others, since in our usel algorithm, it always skip while loop, and just go through every elements in list. Thus it's complexity is O(n^2), and O(n) for reverse. for shell sort, it's much quicker than usel sort.

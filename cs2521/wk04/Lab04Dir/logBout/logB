@@ -1,0 +1,84 @@
+=== Testing for random input, size 100000 ===
+0.04 seconds
+0.02 seconds
+0.02 seconds
+0.02 seconds
+0.02 seconds
+
+=== Testing for sorted input, size 100000 ===
+0.02 seconds
+0.02 seconds
+0.02 seconds
+0.02 seconds
+0.02 seconds
+
+=== Testing for reverse input, size 100000 ===
+0.02 seconds
+0.01 seconds
+0.02 seconds
+0.01 seconds
+0.02 seconds
+
+=== Testing for random input, size 200000 ===
+0.06 seconds
+0.06 seconds
+0.06 seconds
+0.06 seconds
+0.06 seconds
+
+=== Testing for sorted input, size 200000 ===
+0.04 seconds
+0.04 seconds
+0.04 seconds
+0.04 seconds
+0.04 seconds
+
+=== Testing for reverse input, size 200000 ===
+0.03 seconds
+0.04 seconds
+0.04 seconds
+0.04 seconds
+0.03 seconds
+
+=== Testing for random input, size 1000000 ===
+0.36 seconds
+0.35 seconds
+0.36 seconds
+0.34 seconds
+0.35 seconds
+
+=== Testing for sorted input, size 1000000 ===
+0.25 seconds
+0.26 seconds
+0.25 seconds
+0.26 seconds
+0.24 seconds
+
+=== Testing for reverse input, size 1000000 ===
+0.20 seconds
+0.20 seconds
+0.21 seconds
+0.18 seconds
+0.20 seconds
+
+=== Testing for random input, size 2000000 ===
+0.35 seconds
+0.35 seconds
+0.36 seconds
+0.36 seconds
+0.36 seconds
+
+=== Testing for sorted input, size 2000000 ===
+0.24 seconds
+0.24 seconds
+0.24 seconds
+0.25 seconds
+0.24 seconds
+
+=== Testing for reverse input, size 2000000 ===
+0.20 seconds
+0.20 seconds
+0.19 seconds
+0.19 seconds
+0.19 seconds
+

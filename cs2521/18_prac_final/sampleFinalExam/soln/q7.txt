@@ -1,0 +1,21 @@
+Question 7 ... 
+
+
+Questions on the following topics: 
+Tree ADTs: Binary Search Tree, Balanced trees, 2-3-4 trees, heaps, etc. 
+
+
+For example, 
+
+A.  (after inserting 8 into 2-3-4 tree)
+
+root = [12|35|60]
+leaf = [1|7|8]
+
+
+B.  (after inserting 42 into 2-3-4 tree)
+
+root = [35]
+leaf = [36|42]
+
+

@@ -1,0 +1,2 @@
+FORWARD: [body_landuage]->[boy_problems]->[cry]->[gimmie_love]->[heavy_lifting]->[good_time]->[la_hallucinations]->[i_didnt_just_come_here_to_dance]->[drive]->[favourite_colour]->[cut_to_the_feeling]->[i_really_like_you]->[fever]->[call_me_maybe]->[Emotion]->NULL
+BACKWARD: [Emotion]->[call_me_maybe]->[fever]->[i_really_like_you]->[cut_to_the_feeling]->[favourite_colour]->[drive]->[i_didnt_just_come_here_to_dance]->[la_hallucinations]->[good_time]->[heavy_lifting]->[gimmie_love]->[cry]->[boy_problems]->[body_landuage]->NULL

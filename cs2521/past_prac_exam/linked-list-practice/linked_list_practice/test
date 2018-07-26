@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+if [ $# -lt 1 ]; then
+  echo "Usage: ./test <questionNumber>"
+  exit
+fi
+
+gcc -Wall -Werror -o run "q$1.c" || exit
+
+for file in testing_files/$1/*.in
+do
+  echo ">>> Testing $file"
+  usr=$(cat "$file" | ./run)
+  tmp=$(echo "$file" | cut -d'.' -f1)
+  exp=$(cat "$tmp.out")
+  if [ "$usr" == "$exp" ]; then
+    echo -e "${GREEN}Test Passed${NC}"
+  else
+    echo -e "${RED}Test Failed${NC}"
+    echo "I wanted: $exp"
+    echo "You gave me: $usr"
+  fi
+  echo ""
+done

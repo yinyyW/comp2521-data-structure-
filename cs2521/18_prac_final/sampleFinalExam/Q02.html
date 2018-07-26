@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Sample Final Exam</title>
+<link rel='stylesheet' type='text/css' href='exam.css'></head>
+<body>
+<div align='center'>
+<table width='100%' border='0'>
+<tr valign='top'>
+<td align='left' width='25%'>
+  <span class='tiny'>Sample</span>
+</td>
+<td align='center' width='50%'>
+  <span class='heading'>Sample Final Exam</span>
+</td>
+<td align='right' width='25%'>
+  <span class='tiny'>COMP2521</span>
+</td>
+</table>
+</div>
+<center><a href='index.html'>[Instructions]</a> <a target='C' href='C/index.html'>[C language]</a> 
+ <br><a href='Q01.html'>[Q1]</a> <b>[Q2]</b> <a href='Q03.html'>[Q3]</a> <a href='Q04.html'>[Q4]</a> <a href='Q05.html'>[Q5]</a> <a href='Q06.html'>[Q6]</a> <a href='Q07.html'>[Q7]</a> <a href='Q08.html'>[Q8]</a>   
+</center>
+<hr>
+<div style='margin-left:40px;margin-right:40px'>
+<h3>Question 2 <span class='tiny'></span></h3>
+<p>
+
+
+In this question you need to implement the following function, called <tt>isHeap</tt>. 
+The function <tt>isHeap</tt> accepts one argument, that is a complete binary tree <tt>t</tt>, and 
+returns 1 if the given complete binary tree <tt>t</tt> is a heap (max-heap), 0 otherwise. 
+
+<pre>
+	int isHeap(BTree  t);
+</pre>
+
+<p> Like in your lab exams, the required supporting files will be provided for such a question in the exam. 
+For this practice question, you can assume that the following Btree.h file is available:  </p>
+
+<pre>
+// Btree.h : Binary Tree ADT  ... 
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+
+
+#define data(tree)  ((tree)->data)
+#define left(tree)  ((tree)->left)
+#define right(tree) ((tree)->right)
+
+
+typedef struct Node *BTree;
+typedef struct Node {
+   int  data;
+   BTree left, right;
+} Node;
+
+
+</pre>
+
+
+
+
+
+</div>
+</body>
+</html>
